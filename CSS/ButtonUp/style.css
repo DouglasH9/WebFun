@@ -1,0 +1,38 @@
+div {
+    margin: 1.5%;
+    
+    
+}
+#search {
+    height: 22px;
+    width: 125px;
+    border: 2px;
+    border-style: groove;
+    border-color: rgb(126, 204, 126);
+    border-radius: 12px;
+    color: darkseagreen;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: none;
+    
+}
+#plus {
+    background-color: rgb(126, 204, 126);
+    color: whitesmoke;
+    border-radius: 100%;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    font-size: x-large;
+    border: none;
+}
+#create {
+    height: 40px;
+    width: 150px;
+    background-color: cornflowerblue;
+    color: whitesmoke;
+    border: 2% black;
+    box-shadow: 4px 4px black;
+    text-align: center;
+    font-size: large;
+}
