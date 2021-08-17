@@ -1,0 +1,23 @@
+#myCloud {
+    background-color: black;
+    text-align: left;
+    color: cyan;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: bold;
+}
+#projects {
+    text-align: center;
+    background-color: rebeccapurple;
+    font-style: italic;
+    color: whitesmoke;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#contact {
+    text-decoration: underline;
+    text-align: right;
+    background-color: cornflowerblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+span {
+    color: white;
+}
