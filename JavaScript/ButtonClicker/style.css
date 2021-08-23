@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', cursive;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#navbar {
+    width: 70%;
+    min-height: 75px;
+    margin:auto;
+    background-color: beige;
+}
+
+#search {
+    width: 200px;
+    min-height: 30px;
+    border-radius: 5px;
+}
+
+#login {
+    min-height: 30px;
+    width: 70px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px black;
+}
+
+#bottomFlex {
+    width: 70%;
+    margin:auto;
+    /* background-color: aliceblue; */
+    min-height: 750px;
+    align-items: flex-start;
+    padding-top: 50px;
+    gap: 20px;
+}
+#cardholder {
+    /* background-color: antiquewhite; */
+    width: 500px;
+    flex: 2;
+}
+#ninja {
+    max-width: 100%;
+    min-height: 250px;
+    margin: auto;
+    border: 2px solid black;
+}
+#ninja2 {
+    max-width: 100%;
+    min-height: 250px;
+    /* background-color: crimson; */
+    margin: auto;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+#definition {
+    border: 2px solid black;
+    max-width: 70%;
+    min-height: 150px;
+    padding: 15px;
+    flex: 1;
+    text-align: center;
+}
+.card {
+    margin: 20px;
+}
+p.card {
+    font-size: 20px;
+}
+
+span    {
+    font-weight: bolder;
+}
+#addDef {
+    min-width: 70%;
+    min-height: 35px;
+    margin: 35px;
+    background-color: rgb(91, 185, 91);
+    box-shadow: 2px 2px black;
+    border-radius: 3px;
+    font-weight: bold;
+}
+button.card {
+    background-color: rgb(241, 202, 103);
+    min-height: 30px;
+    min-width: 60px;
+    border-radius: 4px;
+    box-shadow: 3px 3px black;
+    font-weight: bolder;
+}
