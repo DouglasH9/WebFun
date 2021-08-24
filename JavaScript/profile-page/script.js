@@ -8,22 +8,26 @@ function changeName(){
     janeName.innerHTML = "Ghost Bird";
 }
 var userReq = document.querySelector('li.card-list-item');
-var conCount = document.querySelector('.badge');
+var conCount = document.querySelector('#connections');
 
-var conCountNum =2;
-console.log(conCount);
 
-function conReqCount (){
-    console.log(conCountNum);
-    conCount.innerText = conCountNum - 1;
-    conCountNum--;
-    return conCount;
-}
+
+// function conReqCount (){
+//     console.log(conCountNum);
+//     conCount.innerText = conCountNum - 1;
+//     conCountNum--;
+//     return conCount;
+// }
 
 function removeUser (){
-    console.log(userReq);
-    console.log('wut up');
+    // console.log(userReq);
+    // console.log('wut up');
     userReq.remove();
     userReq = document.querySelector('li.card-list-item');
+    document.querySelector('#connections').innerHTML--;
     return userReq;
+}
+
+function acceptReq (){
+    document.querySelector('#yourConnex').innerHTML++;
 }

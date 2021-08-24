@@ -63,7 +63,7 @@
             <!-- connection requests card -->
             <div class="card">
                 <div class="card-header">
-                    <span class="badge">2</span>
+                    <span class="badge" id="connections">2</span>
                     <h3>Connection Requests</h3>
                 </div>
                 <ul class="card-list">
@@ -73,7 +73,7 @@
                             Todd E
                         </span>
                         <span>
-                            <img onclick="removeUser()" src="icons/accept-circle.png" alt="accept" class="icon">
+                            <img onclick="removeUser(); acceptReq();" src="icons/accept-circle.png" alt="accept" class="icon">
                             <img onclick="removeUser()" src="icons/close-circle.png" alt="close" class="icon">
                         </span>
                     </li>
@@ -83,8 +83,8 @@
                             Phil E
                         </span>
                         <span>
-                            <img onclick="removeUser(); conReqCount();" src="icons/accept-circle.png" alt="accept" class="icon">
-                            <img onclick="removeUser(); conReqCount()" src="icons/close-circle.png" alt="close" class="icon">
+                            <img onclick="removeUser(); acceptReq();" src="icons/accept-circle.png" alt="accept" class="icon">
+                            <img onclick="removeUser()" src="icons/close-circle.png" alt="close" class="icon">
                         </span>
                     </li>
                 </ul>
@@ -93,7 +93,7 @@
             <!-- your connections card -->
             <div class="card">
                 <div class="card-header">
-                    <span class="badge">500+</span>
+                    <span class="badge" id="yourConnex">500</span>
                     <h3>Your Connections</h3>
                 </div>
                 <ul class="card-list">
