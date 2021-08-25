@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', cursive;
+}
+.flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#banner {
+    background-color: #9fc5f8;
+    min-height: 70px;
+}
+#bannerContent {
+    color: white;
+    font-weight: 900;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+}
+#cities h3 {
+    margin-left: 25px;
+}
+#cities h3 {
+    cursor: pointer;
+}
+#cF {
+    margin-left: 15px;
+    border: 3px solid black;
+}
+option {
+    font-weight: bolder;
+}
+#sanJose {
+    /* background-color: blue; */
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+#dayCardHolder {
+    /* background-color: crimson; */
+    /* min-height: 650px; */
+    width: 70%;
+    justify-content: space-between;
+    margin: 20px auto;
+    margin-bottom: 150px;
+}
+.card {
+    min-height: 250px;
+    width: 150px;
+    outline: 3px solid black;
+    background-color: rgb(238 238 238);
+}
+.card img {
+    display: block;
+    margin: 30px auto;
+    width: 100px;
+    border-radius: 50%;
+    background-color: white;
+}
+.card h2 {
+    margin: 15px 0;
+    text-align: center;
+}
+.card p {
+    text-align: center;
+    margin: 10px 0;
+}
+.red {
+    color: red;
+}
+.blue {
+    color: blue;
+}
+#cookiewrapper {
+    background-color: blue;
+    min-height: 200px;
+}
+#cookiePolicy {
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(238 238 238);
+    border: 4px solid black;
+    min-height: 125px;
+    width: 70%;
+    position: fixed;
+    padding: 10px;
+}
+#cookieContent {
+    padding: 40px;
+}
+button {
+    width: 200px;
+    height: 35px;
+    background-color: rgb(159 197 248);
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+    cursor: pointer;
+}
+#sanJose {
+    width: 70%;
+    margin: 20px auto;
+    border-bottom: 4px solid black;
+}
