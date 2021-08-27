@@ -25,7 +25,7 @@
         <h2>San Jose</h2>
         <div class="flex" id="tempSel">
             <p>show temperature in</p>
-            <select onchange="convertTemps()" name="temps" id="cF">
+            <select onchange="convertTemps(this)" name="temps" id="cF">
                 <option value="Fahrenheit">°F</option>
                 <option value="Celcius">°C</option>
             </select>
@@ -37,8 +37,8 @@
             <img src="assets/some_rain.png" alt="rain">
             <p>some rain</p>
             <div class="flex temp">
-                <h2><span id="red1" class="red">75°</span></h2>
-                <h2><span id="blue1" class="blue">65°</span></h2>
+                <h2><span id="temp1" class="red">75</span></h2>
+                <h2><span id="temp2" class="blue">65</span></h2>
             </div>
         </div>
         <div class="card">
@@ -46,8 +46,8 @@
             <img src="assets/some_sun.png" alt="rain">
             <p>some sun</p>
             <div class="flex temp">
-                <h2><span id="red2" class="red">80°</span></h2>
-                <h2><span id="blue2" class="blue">66°</span></h2>
+                <h2><span id="temp3" class="red">80</span></h2>
+                <h2><span id="temp4" class="blue">66</span></h2>
             </div>
         </div>
         <div class="card">
@@ -55,8 +55,8 @@
             <img src="assets/some_clouds.png" alt="rain">
             <p>some clouds</p>
             <div class="flex temp">
-                <h2><span id="red3" class="red">69°</span></h2>
-                <h2><span id="blue3" class="blue">61°</span></h2>
+                <h2><span id="temp5" class="red">69</span></h2>
+                <h2><span id="temp6" class="blue">61</span></h2>
             </div>
         </div>
         <div class="card">
@@ -64,8 +64,8 @@
             <img src="assets/some_sun.png" alt="rain">
             <p>some sun</p>
             <div class="flex temp">
-                <h2><span id="red4" class="red">78°</span></h2>
-                <h2><span id="blue4" class="blue">70°</span></h2>
+                <h2><span id="temp7" class="red">78</span></h2>
+                <h2><span id="temp8" class="blue">70</span></h2>
             </div>
         </div>
     </div>

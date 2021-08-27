@@ -2,37 +2,24 @@ function removeCookie (){
     document.querySelector('#cookiePolicy').remove();
 }
 
-// var highs = [75, 80, 69, 79];
-// var lows = [65, 66, 61, 70]
+function con2c (temp){
+    return Math.round((temp-32)*(5/9));
+}
 
-// function convertTemps(){
-//     if (document.querySelector('#cF').value == 'Fahrenheit'){
-//         for (var i = 0; i < highs.length; i++){
-//             highs[i] = (highs[i]-32 * 5/9);
-//             document.querySelector('')
-//         }
-//     }
-// }
-function convertTemps(){
-    document.querySelector('#cF').value == 'Fahrenheit';
-    if (document.querySelector('option').value == 'Celsius'){
-        document.querySelector('#red1').innerText() = '24°';
-        document.querySelector('#blue1').innerHTML = '18°';
-        document.querySelector('#red2').innerHTML = '27°';
-        document.querySelector('#blue2').innerHTML = '19°';
-        document.querySelector('#red3').innerHTML = '21°';
-        document.querySelector('#blue3').innerHTML = '16°';
-        document.querySelector('#red4').innerHTML = '26°';
-        document.querySelector('#blue4').innerHTML = '21°';
-    }
-    else {
-        document.querySelector('#red1').innerHTML = '75°';
-        document.querySelector('#blue1').innerHTML = '65°';
-        document.querySelector('#red2').innerHTML = '80°';
-        document.querySelector('#blue2').innerHTML = '66°';
-        document.querySelector('#red3').innerHTML = '69°';
-        document.querySelector('#blue3').innerHTML = '61°';
-        document.querySelector('#red4').innerHTML = '78°';
-        document.querySelector('#blue4').innerHTML = '70°';
+function con2f (temp){
+    return Math.round((9/5)*temp + 32);
+}
+
+function convertTemps(element){
+    for (var i = 1; i < 9; i++){
+        var tempSelect = document.querySelector('#temp' + i);
+        var tempVal = parseInt(tempSelect.innerText);
+        if (element.value == 'Fahrenheit'){
+            tempSelect.innerText = con2f(tempVal);
+        }
+            else {
+                tempSelect.innerText = con2c(tempVal);
+            }
     }
 }
+    
