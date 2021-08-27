@@ -84,16 +84,11 @@
 
 // var arr =[];
 function fibonacciArr(n){
-    var arr = [];
+    var arr = [0,1];
     // var num = 0;
-    if (n===1){
-        arr = [0,1];
-    }
-    else {
         for (var i = 0; i <= n; i++){
-            arr.push(n);
+            arr.push(arr[arr.length - 1]+arr[arr.length - 2]);
         }
-    }
     return arr;
 }
 var result =  fibonacciArr(5);
